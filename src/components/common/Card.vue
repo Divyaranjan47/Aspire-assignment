@@ -84,6 +84,7 @@ export default {
     right: 0;
     top: -25px;
     color: $card-color;
+    background: $white;
     z-index: 1;
     border-radius: 6px;
     @include MediaQueries($desktop-and-above) {

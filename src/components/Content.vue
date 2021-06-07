@@ -122,6 +122,7 @@ export default {
 }
 
 .right-container {
+    padding: 0 0 2rem 0;
     margin: 1.5rem 0 0;
     background: $white;
     position: relative;
