@@ -42,8 +42,9 @@ export default {
     padding: 1.5rem 0;
     border-bottom: 1px solid $border-grey;
 
-    &::last {
-        border: none
+    &:last-child {
+        border: none;
+        padding: 1.5rem 0 0;
     }
 
     &_left {

@@ -43,7 +43,6 @@ export default {
     margin: 2.4rem;
     background: $white;
     border-radius: 8px;
-    filter: drop-shadow(0 2px 8px #00000014);
 
     &_header {
         @include flex();
@@ -55,6 +54,7 @@ export default {
         border: 1px solid $border-grey;
         border-radius: 8px;
         z-index: $index3;
+        filter: drop-shadow(0 2px 8px #00000014);
 
         &_desc {
            @include flex(); 
