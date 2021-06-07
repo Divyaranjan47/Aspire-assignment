@@ -33,6 +33,8 @@ export default {
 
     .wrapper {
         padding: 4.8rem;
+        position: sticky;
+        top: 0;
     }
 }
 @include MediaQueries($desktop-and-above) {
